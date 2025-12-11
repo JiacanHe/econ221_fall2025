@@ -26,25 +26,17 @@ final\_paper.pdf
 
 
 
-Repository structure
+ Repository structure (clickable)
 
-├── README.md
-
-├── final\_paper.pdf
-
-├── code/
-
-│   ├── 00\_Process.do
-
-│   ├── 01\_macro\&micro analysis.do
-
-├── raw/
-
-├── cleaned/
-
-├── figures/
-
-├── results/
+- [code/](./code/)
+    - [00_Process.do](./code/00_Process.do)
+    - [01_macro&micro analysis.do](./code/01_macro&micro%20analysis.do)
+- [raw/](./raw/)
+    - [metadata/](./raw/metadata/)
+- [cleaned/](./cleaned/)
+- [figures/](./figures/)
+- [results/](./results/)
+- [final_paper_JHE.pdf](./final_paper_JHE.pdf)
 
 
 
@@ -101,4 +93,5 @@ License
 
 
 MIT License.
+
 
