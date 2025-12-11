@@ -1,32 +1,24 @@
-Do Falling Housing Prices Influence Labor-Market Slack? — Code and Data
+# Do Falling Housing Prices Influence Labor-Market Slack? — Code and Data
+
+This repository contains all code and data used to produce the results in the research paper:
+
+**“Do Falling Housing Prices Influence Labor-Market Slack? Evidence from the Household Side”**  
+Written by *Jiacan He* for the UCSC ECON 221 research paper requirement.
+
+The repository is fully reproducible: running the provided Stata scripts will generate all figures and tables used in the paper.
+
+---
+
+## 📄 Paper
+
+The full paper (PDF) is available here:
+ [**Final_PaperJHE.pdf**](Final_PaperJHE.pdf)
 
 
 
-This repository contains all code and data used to produce the results in the research paper
-
-“Do Falling Housing Prices Influence Labor-Market Slack? Evidence from the Household Side”, written by Jiacan He for the UCSC ECON research paper requirement.
 
 
-
-The repository is designed so that the entire analysis can be reproduced with one command.
-
-All raw data, cleaned data, estimation scripts, and figure-production scripts are included.
-
-
-
-Paper
-
-
-
-The paper (PDF) is available as:
-
-
-
-- [Final_PaperJHE.pdf](Final_PaperJHE.pdf)
-
-
-
-Repository structure 
+##Repository structure 
 - [code/](code/)
   - [00_Process.do](code/00_Process.do)
   - [01_macro&micro analysis.do](code/01_macro&micro%20analysis.do)
@@ -46,7 +38,7 @@ Usage
 
 
 
-To reproduce the results:
+##To reproduce the results:
 
 
 
@@ -57,44 +49,46 @@ Open Stata
 Set working directory to the repo folder
 
 
+##Run the scripts in order
+Step 1 — Prepare data
+do code/00_Process.do
 
-Run:
-
-
-
-do code/00\_Process.do
-
-
-
-do code/01\_macro\&micro analysis.do
-
-The script will produce all figures and tables used in the paper.
+Step 2 — Run macro & micro regressions + produce figures
+do code/01_macro&micro analysis.do
 
 
+All figures and tables used in the paper will be saved automatically into:
 
+figures/
 
+results/tables/
 
-Software
+🖥️ Software Environment
 
+The analysis was conducted in Stata/MP 17.
 
+Packages used include:
 
-The analysis was conducted in:
+reghdfe
 
+ivreghdfe
 
+esttab
 
-Stata/MP 17
+coefplot
 
+ftools
 
+All packages are freely available from SSC (e.g. ssc install reghdfe).
 
-With packages: reghdfe, ivreghdfe, esttab, coefplot, ftools
+📬 Contact
 
+For questions or replication issues, please contact:
 
+Jiacan He
+UCSC Economics Department
+Email: jiacanhe@ucsc.edu
 
-License
-
-
-
-MIT License.
 
 
 
