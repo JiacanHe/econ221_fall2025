@@ -50,6 +50,7 @@ Set working directory to the repo folder
 
 
 ##Run the scripts in order
+
 Step 1 — Prepare data
 do code/00_Process.do
 
@@ -88,6 +89,7 @@ For questions or replication issues, please contact:
 Jiacan He
 UCSC Economics Department
 Email: jiacanhe@ucsc.edu
+
 
 
 
