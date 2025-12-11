@@ -32,7 +32,8 @@ The full paper (PDF) is available here:
 - [Final_PaperJHE.pdf](Final_PaperJHE.pdf)
 - [README.md](README.md)
 
-
+**Note:** Some raw and cleaned datasets are too large to be hosted on GitHub.  
+Researchers who wish to access these files may contact me directly at *jhe517@ucsc.edu*.
 
 Usage
 
@@ -88,7 +89,8 @@ For questions or replication issues, please contact:
 
 Jiacan He
 UCSC Economics Department
-Email: jiacanhe@ucsc.edu
+
+
 
 
 
