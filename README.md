@@ -26,18 +26,52 @@ final\_paper.pdf
 
 
 
- Repository structure (clickable)
+Repository structure
+📁 Code
 
-- [code/](./code/)
-    - [00_Process.do](./code/00_Process.do)
-    - [01_macro&micro analysis.do](./code/01_macro&micro%20analysis.do)
-- [raw/](./raw/)
-    - [metadata/](./raw/metadata/)
-- [cleaned/](./cleaned/)
-- [figures/](./figures/)
-- [results/](./results/)
-- [Final_PaperJHE]
+code/
 
+00_Process.do
+
+01_macro&micro analysis.do
+
+📁 Raw data
+
+raw/
+
+metadata/
+
+(all uploaded raw files appear here)
+
+📁 Cleaned data
+
+cleaned/
+
+📁 Figures
+
+figures/
+
+csv/
+
+📁 Results / Tables
+
+results/
+
+tables/
+
+📁 Presentation
+
+reading_presentations/
+
+📁 Research paper
+
+research_paper/
+
+(your .tex sources go here if needed)
+
+📄 Final paper (PDF)
+
+Final_PaperJHE.pdf
 
 
 Usage
@@ -93,6 +127,7 @@ License
 
 
 MIT License.
+
 
 
 
