@@ -36,7 +36,7 @@ final\_paper.pdf
 - [cleaned/](./cleaned/)
 - [figures/](./figures/)
 - [results/](./results/)
-- [final_paper_JHE.pdf](./final_paper_JHE.pdf)
+- [Final_PaperJHE](./Final_PaperJHE)
 
 
 
@@ -93,5 +93,6 @@ License
 
 
 MIT License.
+
 
 
