@@ -22,56 +22,24 @@ The paper (PDF) is available as:
 
 
 
-final\_paper.pdf
+- [Final_PaperJHE.pdf](Final_PaperJHE.pdf)
 
 
 
-Repository structure
-📁 Code
+Repository structure 
+- [code/](code/)
+  - [00_Process.do](code/00_Process.do)
+  - [01_macro&micro analysis.do](code/01_macro&micro%20analysis.do)
+- [raw/](raw/)
+  - [metadata/](raw/metadata/)
+- [cleaned/](cleaned/)
+- [figures/](figures/)
+  - [csv/](figures/csv/)
+- [results/](results/)
+  - [tables/](results/tables/)
+- [Final_PaperJHE.pdf](Final_PaperJHE.pdf)
+- [README.md](README.md)
 
-code/
-
-00_Process.do
-
-01_macro&micro analysis.do
-
-📁 Raw data
-
-raw/
-
-metadata/
-
-(all uploaded raw files appear here)
-
-📁 Cleaned data
-
-cleaned/
-
-📁 Figures
-
-figures/
-
-csv/
-
-📁 Results / Tables
-
-results/
-
-tables/
-
-📁 Presentation
-
-reading_presentations/
-
-📁 Research paper
-
-research_paper/
-
-(your .tex sources go here if needed)
-
-📄 Final paper (PDF)
-
-Final_PaperJHE.pdf
 
 
 Usage
@@ -127,6 +95,7 @@ License
 
 
 MIT License.
+
 
 
 
